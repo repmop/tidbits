@@ -1,2 +1,10 @@
 # tidbits
-Miscellaneous highlights from projects and assignments I've worked on thus far
+These screenshots were taken from projects in Computer Graphics, Parallel Computer Architecture, and my work for CMR. 
+
+In graphics, I wrote a raytracer, from which I have some screenshots of glass spheres under HDR environment maps, such as those on this page: http://gl.ict.usc.edu/Data/HighResProbes/; I also wrote a small animator, from which I have a clip of inverse kinematics acting on some joints (evaluated with jacobian transpose, assignment is a work in progess). 
+
+From Parallel Architecture, my visualized output is less striking, as performance was more the focus, but I was able to route thousands of wires in parallel on a Xeon Phi using OpenMP.
+
+On CMR, I mostly helped with manufacturing for the 18e season, but I did contribute to the preliminary DCDC rev. 3 design (final version on the winning car was revision 3.5). I have provided some renders of the layout as it was manufactured--even though this revision had some issues, I got to get my feet wet designing and prototyping with the altium pipeline.
+
+This year on CMR, I've been doing preliminary firmware work like setting up the toolchain and testing with dev boards in anticipation of boards being completed and programmable in Spring 2019. I was able to get send messages from a STM32 over SPI and receive them with and arduino, for instance.
